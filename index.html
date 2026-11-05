@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Buscador aleatorio de GitHub</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>GitHub Repositorios de apoyo recomendados</h1>
+        <select id="seleccionar-lenguaje">
+            <option value="">Selecciona un lenguaje</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="TypeScript">TypeScript</option>
+            <option value="PHP">PHP</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Go">Go</option>
+            <option value="Swift">Swift</option>
+            <option value="Kotlin">Kotlin</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+        </select>
+
+        <section id="resultado">
+
+            <p id="mensaje-estado">
+                Por favor, selecciona un lenguaje.
+            </p>
+
+        </section>
+
+        <button id="boton-actualizar" hidden>
+            Buscar otro repositorio
+        </button>
+
+    </main>
+
+
+    <script src="./assets/js/javaScript.js"></script>
+
+</body>
+
+</html>
